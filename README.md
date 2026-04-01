@@ -43,7 +43,7 @@ One toggle. No config. No leftover rules.
 ## Install
 
 ```bash
-git clone https://github.com/Andrew-most-likely/nukeit.git
+git clone https://github.com/Andrew-most-likely/NUKE-IT.git
 cd nukeit
 pip install -e .
 ```
