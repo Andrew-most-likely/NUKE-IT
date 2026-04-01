@@ -44,7 +44,7 @@ One toggle. No config. No leftover rules.
 
 ```bash
 git clone https://github.com/Andrew-most-likely/NUKE-IT.git
-cd nukeit
+cd NUKE-IT
 pip install -e .
 ```
 
