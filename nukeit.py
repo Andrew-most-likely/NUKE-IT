@@ -40,7 +40,7 @@ def ps(command):
 
 def get_active_adapters():
     result = ps(
-        "Get-NetAdapter | Where-Object {$_.Status -eq 'Up'} | Select-Object -ExpandProperty Name"
+        "Get-NetAdapter | Where-Object {$_.Status -ne 'Disabled'} | Select-Object -ExpandProperty Name"
     )
     if result.returncode != 0 or not result.stdout.strip():
         return []
