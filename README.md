@@ -8,6 +8,20 @@ A one-command network kill switch for Windows. Run `nukeit` to instantly disable
 
 ---
 
+## Install
+
+```bash
+git clone https://github.com/Andrew-most-likely/NUKE-IT.git
+cd NUKE-IT
+pip install -e .
+```
+
+After that, `nukeit` is available system-wide from any terminal.
+
+> Requires Windows 10/11 with PowerShell available.
+
+---
+
 ## What it does
 
 ```
@@ -40,20 +54,6 @@ One toggle. No config. No leftover rules.
 
 ---
 
-## Install
-
-```bash
-git clone https://github.com/Andrew-most-likely/NUKE-IT.git
-cd NUKE-IT
-pip install -e .
-```
-
-After that, `nukeit` is available system-wide from any terminal.
-
-> Requires Windows 10/11 with PowerShell available.
-
----
-
 ## Usage
 
 | Command | Description |
@@ -61,6 +61,8 @@ After that, `nukeit` is available system-wide from any terminal.
 | `nukeit` | Kill network (or restore if already nuked) |
 | `nukeit --status` | Show current state and which adapters are affected |
 | `nukeit --list` | Preview adapters that would be disabled |
+
+<img width="1079" height="867" alt="nukeit" src="https://github.com/user-attachments/assets/91d2d48c-295c-47dd-905e-07b3283ef2f9" />
 
 ---
 
