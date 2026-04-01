@@ -32,11 +32,11 @@ One toggle. No config. No leftover rules.
 
 ## Features
 
-- **Toggle on/off** — remembers exactly which adapters were active and restores only those
-- **Auto-elevation** — triggers a UAC prompt automatically if not running as administrator
-- **Firewall rules** — adds blanket block rules for all inbound and outbound traffic
-- **State persistence** — saves state to `~/.nukeit/state.json` so it survives reboots
-- **Zero dependencies** — pure Python stdlib, no pip packages required
+- **Toggle on/off** - remembers exactly which adapters were active and restores only those
+- **Auto-elevation** - triggers a UAC prompt automatically if not running as administrator
+- **Firewall rules** - adds blanket block rules for all inbound and outbound traffic
+- **State persistence** - saves state to `~/.nukeit/state.json` so it survives reboots
+- **Zero dependencies** - pure Python stdlib, no pip packages required
 
 ---
 
@@ -72,7 +72,7 @@ After that, `nukeit` is available system-wide from any terminal.
 4. Creates two Windows Firewall rules blocking **all** inbound and outbound traffic
 5. On restore: removes the firewall rules and re-enables only the adapters that were originally active
 
-State is written before any changes are made, so a crash or power loss mid-nuke won't leave you without a recovery path — just run `nukeit` again.
+State is written before any changes are made, so a crash or power loss mid-nuke won't leave you without a recovery path - just run `nukeit` again.
 
 ---
 
